@@ -1,0 +1,20 @@
+this folder contains all the scripts to create features for the data
+
+DO NOT CHANGE THE NAME OF THE CONSOLIDATED DATA FOLDER (consolidated_data)
+
+[1] 3_preprocess_data_ : time series features from Mr Mislav's fin feature package (except for rollinggpd because it utilizes ptsuite package which is not maintained (at least 6 years)
+
+[2] extract_data_fmp_class_copy, import_copy.R, factors_copy.R : extract data from FinanciaModellingPrep and FREDR for macro data: from Mr Mislav's findata package
+
+[3] tables.R and utils.R: R scripts created by Nico to help with the extraction of data from FinanciaModellingPrep. Modified a little to future proof it (to the newer version and not using the legacy version)
+
+
+Project Goal
+To create features for S&P500 companies (based on discussion with Nico)
+
+
+Workflow:
+[1] Consolidate a single R script that fits all the 3_preprocess_data_ together. Aim to do one symbol at a time for these features
+
+[2] factors_copy.R could be used immediately, just need to modify a little to fit the needs of this project
+
