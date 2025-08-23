@@ -1,0 +1,12 @@
+name: basic_trading_strategy_euclid
+title: basic_trading_strategy_euclid
+username: daebeken
+account: daebeken
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15254594
+bundleId: 10809734
+url: https://daebeken.shinyapps.io/basic_trading_strategy_euclid/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
